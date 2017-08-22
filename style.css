@@ -1,0 +1,17 @@
+html{
+	font-size: 10px;
+}
+
+body{
+	background-color: #aaf;
+	margin:0;
+	font-size: 2rem;
+}
+
+.header{
+	text-align: center;
+}
+
+.container{
+	margin:auto;
+}
