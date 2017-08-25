@@ -8,14 +8,90 @@
 		<meta name="kaywords" content="wioska, budowanie, walki" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<link rel="stylesheet" href="style.css" type="text/css" />
+
 		
 	</head>
 	<body>
+
 		<div class="container">
+			
+			<!-- Home page menu -->
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home page</a></li>
+					<li><a href="gameRules">Game rules</a></li>
+					<li><a href="Statistics">Statistics</a></li>
+					<li><a href="Fast">Fast</a></li>
+					<li><a href="Support">Support</a></li>
+					<li><a href="Help">Help</a></li>
+					<li><a href="Forum">Forum</a></li>
+					<li><a href="Logout">Logout</a></li>					
+				</ul>
+			</div>
+			
+			<!-- Game tittle -->
 			<div class="header">
 				<h1>Wolne wioski</h1>
 			</div>
 			
+			<!-- Game presentation -->
+			<div class="box1">
+				<h2>Wolne wioski</h2>
+				<div>
+					Wolne wioski to przeglądarkowa gra online, z akcją osadzoną w średniowieczu. Gracz posiada małą wioskę, która ma doprowadzić do 	władzy i chwały.
+				</div>
+				<button>Bezpłatna rejestracja!</button>
+				
+				<h3>Zdjęcia z gry online</h3>
+				<div class="smallPicture">					
+					<!-- "img img img"     <== trzy zdjęcia w tym miejscu-->
+					<ul>
+						<li>
+							<a class="screenshot" href="#">
+								<img src="img/ss/1.jpg" alt="screenShot from game">
+							</a>
+						</li>
+						<li>
+							<a class="screenshot" href="#">
+								<img src="img/ss/2.jpg" alt="screenShot from game">
+							</a>
+						</li>
+						<li>
+							<a class="screenshot" href="#">
+								<img src="img/ss/3.jpg" alt="screenShot from game">
+							</a>
+						</li>
+					</ul>						
+				</div>				
+			</div>	
+			
+			<!-- Login box -->
+			<div class="box2">
+				<h2>Logowanie</h2>
+				<form>					
+					<label for="user">
+						<input name="username" type="text" value data-tracked="true">
+						<span>Nazwa gracza:</span>
+					</label>
+					<label for="password">
+						<input id="password" name="password">
+						<span>Hasło:</span>
+					</label>
+					<label for="remember-me" type="checkbox" name="remember-me" checed="checked">
+						<span class="remember-me">Zapamiętaj mnie</span>
+						<input id="remember-me" type="checkbox" name="remember-me" checed="checed">
+					</label>
+					<div class="loginButtons">
+						<a class="login" href="#">
+							Logowanie
+						</a>
+					</div>
+				</form>
+				<a class="loginFooterLink" href="odzyskiwanie_hasla.html">
+					Odzyskiwanie hasła
+				</a>
+			</div>
 		</div>
+		
 	</body>
 </html>
